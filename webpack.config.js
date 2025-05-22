@@ -84,8 +84,8 @@ module.exports = [
         },
         output: {
             path: path.resolve(__dirname, 'dist'),
-            filename: 'OrgonWeb.js',
-            library: 'OrgonWeb',
+            filename: 'TronWeb.js',
+            library: 'TronWeb',
             libraryTarget: 'umd',
             libraryExport: 'default',
             umdNamedDefine: true,
