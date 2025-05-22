@@ -9,7 +9,7 @@ module.exports = [
         ...baseConfig,
         output: {
             path: path.resolve(__dirname, 'dist'),
-            filename: 'OrgonWeb.node.js',
+            filename: 'TronWeb.node.js',
             libraryTarget: 'commonjs2',
             libraryExport: 'default',
         },
