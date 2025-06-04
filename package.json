@@ -1,6 +1,6 @@
 {
     "name": "orgonweb",
-    "version": "6.0.3",
+    "version": "6.0.4",
     "description": "JavaScript SDK that encapsulates the ORGON HTTP API",
     "main": "./lib/commonjs/index.js",
     "module": "./lib/esm/index.js",
