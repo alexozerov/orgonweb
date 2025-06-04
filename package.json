@@ -124,10 +124,10 @@
         "webpack-node-externals": "^3.0.0"
     },
     "author": {
-        "name": "Tron Protocol",
-        "url": "https://github.com/tronprotocol"
+        "name": "alexozerov",
+        "url": "https://github.com/alexozerov"
     },
-    "homepage": "https://tronweb.network",
+    "homepage": "https://orgon.space",
     "license": "MIT",
     "repository": "https://github.com/alexozerov/orgonweb.git"
 }
