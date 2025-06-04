@@ -61,11 +61,11 @@ For recent history, see the [CHANGELOG](https://github.com/alexozerov/orgonweb/b
 
 ### Node.js
 ```bash
-npm install tronweb
+npm install orgonweb
 ```
 or
 ```bash
-yarn add tronweb
+yarn add orgonweb
 ```
 
 ### Browser
@@ -111,7 +111,7 @@ docker run -it --rm \
 First of all, in your typescript file, define OrgonWeb:
 
 ```typescript
-import { TronWeb, utils as TronWebUtils, Trx, TransactionBuilder, Contract, Event, Plugin } from 'tronweb';
+import { TronWeb, utils as TronWebUtils, Trx, TransactionBuilder, Contract, Event, Plugin } from 'orgonweb';
 ```
 
 When you instantiate OrgonWeb you can define
@@ -129,7 +129,7 @@ which works as a jolly. If you do so, though, the more precise specification has
 Supposing you are using a server which provides everything, like OrgonGate, you can instantiate OrgonWeb as:
 
 ```js
-const tronWeb = new TronWeb({
+const orgonWeb = new OrgonWeb({
     fullHost: 'https://api.orgongate.org',
     headers: { "ORGON-PRO-API-KEY": 'your api key' },
     privateKey: 'your private key'
