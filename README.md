@@ -27,11 +27,11 @@
 
 [OrgonWeb](https://orgon.space) aims to deliver a unified, seamless development experience influenced by Ethereum's [Web3](https://github.com/ethereum/web3.js/) implementation. We have taken the core ideas and expanded upon them to unlock the functionality of ORGON's unique feature set along with offering new tools for integrating DApps in the browser, Node.js and IoT devices.
 
-To better support its use in TypeScript projects, we have rewritten the entire library in TypeScript. And to make the OrgonWeb API more secure and consistent, there are some breaking changes. <font color=red>Please check out [<font color=red>6.x API documentation</font>](https://orgon.space/docu/docs/intro/)</font> for detailed changes so you can start using the new TypeScript version of TronWeb early. Any questions or feedback are welcome [here](https://github.com/alexozerov/tronweb/issues/new).
+To better support its use in TypeScript projects, we have rewritten the entire library in TypeScript. And to make the OrgonWeb API more secure and consistent, there are some breaking changes. <font color=red>Please check out [<font color=red>6.x API documentation</font>](https://orgon.space/docu/docs/intro/)</font> for detailed changes so you can start using the new TypeScript version of OrgonWeb early. Any questions or feedback are welcome [here](https://github.com/alexozerov/orgonweb/issues/new).
 
 **Project scope**
 
-Any new TRON feature will be incorporated into TronWeb. Changes to the API to improve quality-of-life are in-scope for the project. We will not necessarily maintain feature parity with Web3.js going forward as this is a separate project, not a synchronized fork.
+Any new TRON feature will be incorporated into OrgonWeb. Changes to the API to improve quality-of-life are in-scope for the project. We will not necessarily maintain feature parity with Web3.js going forward as this is a separate project, not a synchronized fork.
 
 ## HomePage
 
@@ -43,12 +43,12 @@ __[orgon.space](https://orgon.space)__
 
 You can access either version specifically from the dist folder.
 
-TronWeb is also compatible with frontend frameworks such as:
+OrgonWeb is also compatible with frontend frameworks such as:
 - Angular
 - React
 - Vue.
 
-You can also ship TronWeb in a Chrome extension.
+You can also ship OrgonWeb in a Chrome extension.
 
 ## Recent History
 
@@ -70,7 +70,7 @@ yarn add orgonweb
 
 ### Browser
 
-The easiest way to use TronWeb in a browser is to install it as above and copy the dist file to your working folder. For example:
+The easiest way to use OrgonWeb in a browser is to install it as above and copy the dist file to your working folder. For example:
 ```
 cp node_modules/orgonweb/dist/TronWeb.js ./js/tronweb.js
 ```
@@ -192,15 +192,13 @@ In order to contribute you can
 * fork this repo and clone it locally
 * install the dependencies — `npm i`
 * do your changes to the code
-* build the TronWeb dist files — `npm run build:all`
+* build the OrgonWeb dist files — `npm run build:all`
 * run a local private network using Orgon Quickstart
 * run the tests — `npm run test`
 * push your changes and open a pull request
 
-For more questions, please refer to [TronWeb Doc](https://tronweb.network/docu/docs/Migrating%20from%20v5#faq).
-
 ## Licence
 
-TronWeb is distributed under a MIT licence.
+OrgonWeb is distributed under a MIT licence.
 
 
